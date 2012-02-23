@@ -15,7 +15,7 @@ geometric_tools: $(SOURCE_DIR)/installed
 
 $(SOURCE_DIR)/installed: $(SOURCE_DIR)/unpacked
 	cd $(SOURCE_DIR)/WildMagic5	\
-	&& CFG=ReleaseDLL make -f makefile.wm5
+	&& CFG=ReleaseDynamic make -f makefile.wm5
 	touch $(SOURCE_DIR)/installed
 
 clean:

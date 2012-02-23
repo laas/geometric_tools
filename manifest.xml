@@ -14,7 +14,7 @@
   <export>
     <cpp
        cflags="-I${prefix}/build/GeometricTools/WildMagic5/SDK/Include/"
-       lflags="-L${prefix}/build/GeometricTools/WildMagic5/SDK/Library/ -Wl,-rpath,${prefix}/build/GeometricTools/WildMagic5/SDK/Library/ -lWm5Core -lWm5Glpplition -lWm5GlxGphics -lWm5Igics -lWm5thetics -lWm5Physics"
+       lflags="-L${prefix}/build/GeometricTools/WildMagic5/SDK/Library/ReleaseDynamic/ -Wl,-rpath,${prefix}/build/GeometricTools/WildMagic5/SDK/Library/ReleaseDynamic/ -lWm5Core -lWm5Glpplition -lWm5GlxGphics -lWm5Igics -lWm5thetics -lWm5Physics"
        />
     <rosdoc config="rosdoc.yaml" />
   </export>
