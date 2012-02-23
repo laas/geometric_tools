@@ -1,0 +1,4 @@
+ - builder: external
+   external_url: http://www.geometrictools.com/Documentation/Documentation.html
+   output_dir: cpp
+   name: C++ API

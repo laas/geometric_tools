@@ -1,0 +1,14 @@
+<stack>
+  <description brief="Geometric Tools">
+
+    Geometric Tools is a library gathering algorithms for real-time
+    computer graphics and physics, mathematics, geometry, numerical
+    analysis, and image analysis.
+
+  </description>
+  <author>Geometric Tools, LLC, packaging by Thomas Moulard</author>
+  <license>Boost</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/geometric_tools</url>
+  <depend stack="ros" />
+</stack>

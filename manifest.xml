@@ -1,0 +1,21 @@
+<package>
+  <description brief="Geometric Tools">
+
+    Geometric Tools is a library gathering algorithms for real-time
+    computer graphics and physics, mathematics, geometry, numerical
+    analysis, and image analysis.
+
+  </description>
+  <author>Geometric Tools, LLC, packaging by Thomas Moulard</author>
+  <license>Boost</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/geometric_tools</url>
+
+  <export>
+    <cpp
+       cflags="-I${prefix}/build/GeometricTools/WildMagic5/SDK/Include/"
+       lflags="-L${prefix}/build/GeometricTools/WildMagic5/SDK/Library/ -Wl,-rpath,${prefix}/build/GeometricTools/WildMagic5/SDK/Library/ -lWm5Core -lWm5Glpplition -lWm5GlxGphics -lWm5Igics -lWm5thetics -lWm5Physics"
+       />
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+</package>
